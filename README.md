@@ -45,3 +45,7 @@ optional arguments:
   -o OUTPUT, --output OUTPUT
                         Output pdf file prefix; Default output: Pattern.pdf
  ```
+
+For more details, please refer to our publication.
+
+
