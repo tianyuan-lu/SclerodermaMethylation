@@ -54,7 +54,7 @@ Users may refer to differentially methylated regions (DMRs) and visualize by sup
 
 ![ExamplePlot](Example.pdf)
 
-In this plot, each column represents one sample and each row represents one CpG dinucleotide within the provided boundary (inclusive). Samples are ordered based on hierarchical clustering. CpG dinucleotides are in their original sequential order. Fixed effect (of age) has been regressed out from the raw methylation beta values, leaving the residual methylation levels colored in a gradient from blue (relatively hypomethylated) to red (relatively hypermethylated). CpG dinucleotides with low read depth are colored grey. Note that if no fixed effect were to be regressed out, the residual methylation levels would remain the same as the initial methylation beta values.
+In this plot, each column represents one sample (D*: SSc cases; C*: controls) and each row represents one CpG dinucleotide within the provided boundary (inclusive). Samples are ordered based on hierarchical clustering. CpG dinucleotides are in their original sequential order. Fixed effect (of age) has been regressed out from the raw methylation beta values, leaving the residual methylation levels colored in a gradient from blue (relatively hypomethylated) to red (relatively hypermethylated). CpG dinucleotides with low read depth are colored grey. Note that if no fixed effect were to be regressed out, the residual methylation levels would remain the same as the initial methylation beta values.
 
 For more details, please refer to our publication.
 
