@@ -135,7 +135,7 @@ if (!is.null(nrow(subMeth))) {
   if (nrow(subMeth) > 1) {
     covariate <- covar[,which(colnames(covar) %in% regressOut)]
     covariate <- as.data.frame(covariate)
-    cat(paste0(nrow(subMeth)," CpG dinucleotide(s) passed filtering."))
+    cat(paste0(nrow(subMeth)," CpG dinucleotide(s) passed filtering."), collapse=("\n"))
     regressResidual <- apply(subMeth, 1, function(x) linearRegression(x,covariate))
     regressResidual <- t(regressResidual)
     colnames(regressResidual) <- colnames(subMeth)
