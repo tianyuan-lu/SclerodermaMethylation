@@ -144,7 +144,6 @@ if (!is.null(nrow(subMeth))) {
     }
     plt <- tryCatch(
       Heatmap(as.matrix(regressResidual), cluster_rows = F,
-              clustering_distance_columns = "pearson",
               show_row_names = F,
               column_title = paste0("Chromosome ", chr, ": ", start, "-", end),
               name = "Residual methylation level"),
