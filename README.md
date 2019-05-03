@@ -38,8 +38,10 @@ optional arguments:
                         Allowed maximum missingness in controls; Default: 0
   -r REGRESSOUT [REGRESSOUT ...], --regressOut REGRESSOUT [REGRESSOUT ...]
                         Regress out one or more fixed effects: choose from
-                        Age/Male/Duration/Smoke/Ethnicity/Status; Default:
-                        null
+                        Age/Male/Duration/Smoke/Ethnicity/Status where
+                        Duration represents the progression duration since SSc
+                        onset, Smoke represents smoking history (0/1);
+                        Default: null
   -o OUTPUT, --output OUTPUT
                         Output pdf file prefix; Default output: Pattern.pdf
  ```
