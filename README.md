@@ -8,7 +8,7 @@ We also harbor the de-identified demographic features (Covariates.RData). Sample
 
 We provide an R program which enables visualization of methylation pattern across samples in any user-specified regions (methylationShowcase.R). This program requires a recent version of R and R packages `argparse`, `dplyr` and `ComplexHeatmap`.
 
-After downloading the script, demographic covariates and WGBS data of chromosomes of interest, or cloning this repository locally, users can retrieve usage of this program by executing: 
+After downloading the script, demographic covariates and WGBS data of chromosomes of interest, or cloning this repository locally, users can retrieve usage of this program by executing from command line: 
 
     Rscript methylationShowcase.R -h
 ```ruby
@@ -46,7 +46,7 @@ optional arguments:
                         Output pdf file prefix; Default output: Pattern.pdf
  ```
 
-Users may refer to differentially methylated regions (DMRs) and visualize by supplying genomic coordinates accordingly. For example, a DMR was identified in gene *FNB3* with range chr19: 8137960 - 8138105. This DMR can then be displayed by
+Users may refer to differentially methylated regions (DMRs) and visualize by supplying genomic coordinates accordingly. For example, a DMR was identified in gene *FNB3* with range chr19: 8137960 - 8138105. This DMR can then be displayed by executing from command line:
 
     Rscript ./methylationShowcase.R -c 19 -s 8137960 -e 8138105 -f Female -m 3 -n 1 -r Age -o Example
 
