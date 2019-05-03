@@ -46,6 +46,12 @@ optional arguments:
                         Output pdf file prefix; Default output: Pattern.pdf
  ```
 
+Users may refer to differentially methylated regions (DMRs) and visualize by supplying genomic coordinates accordingly. For example, a DMR was identified in gene *FNB3* with range chr19: 8137960 - 8138105. This DMR can then be displayed by
+
+    Rscript ./methylationShowcase.R -c 19 -s 8137960 -e 8138105 -f Female -m 3 -n 1 -r Age -o Example
+
+
+
 For more details, please refer to our publication.
 
 Besides, we also provide an R script (bumphunterAnalysis.R) for reproducing our results presented in the publication using the R package `bumphunter`. This script analyzes only female samples (nine cases vs. four controls) and adjusts for age, while modifications should be easily achievable to incorporate more covariates and/or compare between different SSc subtypes. This script can be executed in RStudio and the results would be stored in a list object `GenomeSSCres` whose 23 factor levels correspond to the 23 (1-22 and X) chromosomes in order. q values and averaged methylation level difference can be obtained subsequently.
