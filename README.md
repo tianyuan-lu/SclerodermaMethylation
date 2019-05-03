@@ -2,7 +2,7 @@
 
 We conducted a pilot study on DNA methylation in Systemic Sclerosis (SSc). In this cohort, we recruited nine SSc cases and nine controls. We performed whole-genome bisulfite sequencing (WGBS) and profiled genome-wide DNA cytosine methylation landscape for each sample.
 
-In this repository, we harbor de-identified CpG methylation beta values of all samples genome-wide (MethylationBetaValues_chr*.RData). We separated the large dataset into per-chromosome subsets. Each of the subset contains information of all valid CpG dinucleotides in all samples passing quality control of read depth on the corresponding chromosome. Due to the excessively large size of CHG/CHH methylation data, we do not store them here. But requisition for academic purpose is possible by contacting us.
+In this repository, we harbor de-identified CpG methylation beta values of all samples genome-wide (MethylationBetaValues_chr*.RData). We separated the large dataset into per-chromosome subsets. Each of the subset contains information of all valid CpG dinucleotides in all samples passing quality control of read depth on the corresponding chromosome. Due to the excessively large size of CHG/CHH methylation data, we do not store them here. However, requisition for academic purpose is possible by contacting us.
 
 We also harbor the de-identified demographic features (Covariates.RData). Samples are in the same order as all CpG methylation data.
 
