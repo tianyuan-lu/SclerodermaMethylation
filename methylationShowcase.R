@@ -25,7 +25,7 @@ parser$add_argument("-n", "--controlCoverage", type="integer", default=0,
                     help="Allowed maximum missingness in controls; Default: 0",
                     metavar="allowedControlMissing")
 parser$add_argument("-r", "--regressOut", type="character", nargs='+',
-                    help="Regress out one or more fixed effects: choose from Age/Male/Duration/Smoke/Ethnicity/Status; Default: null")
+                    help="Regress out one or more fixed effects: choose from Age/Male/Duration/Smoke/Ethnicity/Status where "Duration" represents the progression duration since SSc onset, "Smoke" represents smoking history (0/1); Default: null")
 parser$add_argument("-o", "--output", type="character", default="Pattern",
                     help="Output pdf file prefix; Default output: Pattern.pdf")
 
