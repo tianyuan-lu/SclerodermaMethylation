@@ -50,7 +50,7 @@ Users may refer to differentially methylated regions (DMRs) and visualize by sup
 
     Rscript ./methylationShowcase.R -c 19 -s 8137960 -e 8138105 -f Female -m 3 -n 1 -r Age -o Example
 
-
+![ExamplePlot](Example.pdf)
 
 For more details, please refer to our publication.
 
