@@ -59,3 +59,5 @@ In this plot, each column represents one sample (D*: SSc cases; C*: controls) an
 For more details, please refer to our publication.
 
 Besides, we also provide an R script (bumphunterAnalysis.R) for reproducing our results presented in the publication using the R package `bumphunter`. This script analyzes only female samples (nine cases vs. four controls) and adjusts for age, while modifications should be easily achievable to incorporate more covariates and/or compare between different SSc subtypes. This script can be executed in RStudio and the results would be stored in a list object `GenomeSSCres` whose 23 factor levels correspond to the 23 (1-22 and X) chromosomes in order. q values and averaged methylation level difference can be obtained subsequently.
+
+For more information, please refer to our publication: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-019-0602-8
