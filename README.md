@@ -56,8 +56,6 @@ Users may refer to differentially methylated regions (DMRs) and visualize by sup
 
 In this plot, each column represents one sample (D*: SSc cases; C*: controls) and each row represents one CpG dinucleotide within the provided boundary (inclusive). Samples are ordered based on hierarchical clustering. CpG dinucleotides are in their original sequential order. Fixed effect (of age) has been regressed out from the raw methylation beta values, leaving the residual methylation levels colored in a gradient from blue (relatively hypomethylated) to red (relatively hypermethylated). CpG dinucleotides with low read depth are colored grey. Note that if no fixed effect were to be regressed out, the residual methylation levels would remain the same as the initial methylation beta values.
 
-For more details, please refer to our publication.
-
 Besides, we also provide an R script (bumphunterAnalysis.R) for reproducing our results presented in the publication using the R package `bumphunter`. This script analyzes only female samples (nine cases vs. four controls) and adjusts for age, while modifications should be easily achievable to incorporate more covariates and/or compare between different SSc subtypes. This script can be executed in RStudio and the results would be stored in a list object `GenomeSSCres` whose 23 factor levels correspond to the 23 (1-22 and X) chromosomes in order. q values and averaged methylation level difference can be obtained subsequently.
 
 For more information, please refer to our publication: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-019-0602-8
